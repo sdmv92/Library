@@ -1,0 +1,100 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+body {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title{
+    height: 100px;
+    text-align: center;
+    font-size: 48px;
+}
+
+#close{
+    align-self: flex-end;
+    /* height: 15px; */
+    background-color: white;
+    border-style: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+#container{
+    padding-top: 3%;
+    flex-grow: 1;
+}
+
+.created {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    font-size: 24px;
+    background-color: rgb(255, 241, 161);
+    color: rgb(75, 64, 0);
+    gap: 10px;
+    padding: 12px;
+    transition: 0.2s;
+    box-shadow: 1px 1px 12px 1px black;
+    border-radius: 10px;
+    
+}
+
+.created:hover{
+    transform: scale(1.04);
+    transition: 0.2s linear;
+}
+
+.removeButton {
+    /* width: 40px;
+    height: 40px; */
+    font-family:cursive;
+    /* text-align:justify; */
+    /* border-radius: 100%; */
+    /* background-color: blueviolet; */
+    border-style: none;
+    background-color: rgb(255, 241, 161);
+    font-size: 40px;
+    /* align-self: flex-end;
+    justify-items: flex-end; */
+}
+
+.readButton {
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    border-style: none;
+    border-radius: 10px;
+    align-self: self-end;
+}
+
+.buttonDiv {
+    display: flex;
+    /* display: block; */
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+#button{
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    border-style: none;
+    background-color: rgb(59, 143, 252);
+    border-radius: 15px;
+    align-self: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
